@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(20, 28, 36, 1);
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+}
+
+.header{
+    width: 100%;
+    height: 810px;
+    background-image: url(./img/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 117px;
+    align-items: center;
+    background-color: rgba(20, 28, 36, 1);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none; 
+}
+
+nav a{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+
+nav a:hover{
+    transition: all 0.5s;
+    border-bottom: 1px solid rgba(0, 197, 255, 1);
+}
+
+.header-info{
+    width: 100%;
+    height: 687px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-info p{
+    font-size: 16px;
+}
+
+.header-info h1{
+    font-size: 48px;
+}
+
+.header-info button{
+    width: 251px;
+    height: 61px;
+    font-size: 24px;
+    margin-top: 97px;
+}
+
+/* Облачный гейминг */
+
+.install-page{
+    width: 100%;
+    height: 517px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+    background-color: rgba(20, 28, 36, 1);
+    margin-top: 139px;
+}
+
+.install-page-info{
+    width: 480px;
+}
+
+.p-galvni{
+    display: flex;
+    align-items: center;
+    color: rgba(87, 214, 255, 1);
+    gap: 34px;
+    
+}
+
+.p-galvni span{
+    display: block;
+    width: 50px;
+    border: 1px solid rgba(87, 214, 255, 1);
+}
+
+.h1-glavni{
+    font-size: 39px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 60px;
+    margin-top: 17px;
+}
+
+.install-page-info hr {
+    width: 271px;
+}
+
+.p-assisant{
+    font-size: 21.33px;
+    line-height: 32px;
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+
+.a-glavni{
+    color: rgba(0, 197, 255, 1);
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0, 197, 255, 1);
+}
+
+/* Быстрый старт */
+
+.start-game{
+    height: 393px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.start-game .start-game-cards{
+    width: 848px;
+}
+
+.start-game .start-game-cards .img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.start-game .start-game-cards .img-card span{
+    width: 73px;
+    height: 0;
+    border: 1px solid rgba(0, 197, 255, 1);
+}
+
+.start-game .start-game-cards .text-card{
+    margin-top: 12px;
+    display: flex;
+    /* color: rgba(241, 241, 241, 1); */
+}
+
+.text-card h4:nth-child(2){
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+.text-card h4:nth-child(4){
+    margin-left: 111px;
+}
+
+.start-game .start-game-cards .text-card h4{
+    font-size: 19.33px;
+    font-weight: 300;
+    color: rgba(241, 241, 241, 1);
+}
+
+.start-game h1{
+    margin-bottom: 90px;
+}
+
+.start-game a{
+    margin-top: 90px;
+}
+
+
+/* Гибкие тарифы */
+
+
+.start-follow{
+    width: 100%;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 154px;
+}
+
+.start-follow-cards{
+    display: flex;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.start-follow-cards-card{
+    width: 400px;
+    height: 543px;
+    background-color: rgba(31, 38, 49, 1);
+    border-radius: 5px;
+    padding: 76px 70px 47px 47px;
+}
+
+.start-follow-cards-card h1{
+    font-size: 37px;
+    line-height: 42px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.start-follow-cards-card h3{
+    font-size: 24px;
+    line-height: 28.13px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.start-follow-cards-card .p-card{
+    width: 311px;
+    height: 173.76px;
+    margin-top: 21.21px;
+    color: rgba(171, 171, 171, 1);
+    font-size: 21.33px;
+    line-height: 31.99px;
+}
+
+.start-follow-cards-card button{
+    width: 321px;
+    height: 70px;
+    font-size: 24px;
+}
+
+.start-follow-cards-card:hover{
+    transition: all 0.5s;
+    background-color: rgba(0, 197, 255, 1);
+    color: rgba(20, 28, 36, 1);
+}
+
+.start-follow-cards-card:hover h1{
+    color: rgba(20, 28, 36, 1);
+}
+
+.start-follow-cards-card:hover p{
+    color: rgba(20, 28, 36, 1);
+}
+
+.start-follow-cards-card:hover h3{
+    color: rgba(20, 28, 36, 1);
+}
+
+.start-follow-cards-card:hover button{
+    background-color: rgba(20, 28, 36, 1);
+    color: rgba(241, 248, 255, 1);
+}
+
+.bottom-span{
+    width: 582px;
+    height: 0;
+    border: 1px solid rgba(0, 197, 255, 1);
+    margin-top: 90px;
+}
+
+
+/* Играть можно в браузере */
+
+.online-play{
+    height: 740px;
+    display: flex;
+    padding-left: 137px;
+    margin-top: 228px;
+    justify-content: space-between;
+}
+
+.online-play .online-play-info{
+    margin-top: 17px;
+}
+
+.online-play .p-galvni{
+    margin-bottom: 25px;
+}
+
+.online-play-info .p-assisant{
+    width: 470px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+/* Игровые сервера на карте */
+
+.map{
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(23, 23, 23, 1);
+    display: flex;
+    padding: 0 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-left p:nth-child(2){
+    color: rgba(236, 236, 236, 1);
+}
+
+.footer-left p:last-child{
+    color: rgba(131, 131, 131, 1);
+}
+
+.footer-right{
+    display: flex;
+    gap: 51px;
+}
+
+.footer-right a{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-right .icons{
+    display: flex;
+    gap: 10px;
+}
