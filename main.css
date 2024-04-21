@@ -365,6 +365,9 @@ footer{
 
 
 @media(max-width:360px){
+    body{
+        position: relative;
+    }
     .header{
         display: none;
     }
@@ -375,6 +378,15 @@ footer{
         display: none;
     }
     .online-play{
+        display: none;
+    }
+    .start-follow{
+        display: none;
+    }
+    .install-page{
+        display: none;
+    }
+    .map{
         display: none;
     }
     .header-mobilni{
@@ -398,9 +410,72 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: start;
-        margin-top: -25px;
+        justify-content: start;
+        margin-top: 75px;
+        height: 500px;
     }
-    .header-mobilni ul{
+    .header-mobilni #menu-btn{
+        margin-top: 15px;
+        margin-left: 250px;
+    }
+
+    #menu{
+        width: 100%;
+        height: 100vh;
+        background: rgba(23, 23, 23, 1);
+        padding: 0 30px;
         display: none;
+        position: absolute;
+        top: 0;
+    }
+
+    #menu nav{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background: transparent;
+    }
+
+    #menu ul{
+        margin-top: 68px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #menu li a{
+        display: flex;
+        justify-content: center;
+        color: rgba(255, 255, 255, 1);
+        padding-bottom: 10px;
+        border-bottom: 1px solid transparent;
+    }
+
+    #menu li a:hover{
+        border-bottom: 1px solid rgba(0, 197, 255, 1);
+        transition: all 0.5s;
+    }
+
+    #menu .contact-icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 83px;
+        margin-bottom: 41px;
+        gap: 15px;
+    }
+    #menu .contact-icons img{
+        width: 41px;
+        height: 41px;
+    }
+    .menu-back-btn{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .menu-back-btn img{
+        width: 25px;
+        height: 41px;
     }
 }
