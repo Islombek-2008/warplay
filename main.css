@@ -363,6 +363,10 @@ footer{
     gap: 10px;
 }
 
+#menu{
+    display: none;
+}
+
 
 @media(max-width:360px){
     body{
