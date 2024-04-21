@@ -8,7 +8,6 @@
 body{
     background-color: rgba(20, 28, 36, 1);
 }
-
 button{
     cursor: pointer;
     border: 0;
@@ -20,6 +19,10 @@ button{
     background-image: url(./img/bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.header-mobilni{
+    display: none;
 }
 
 nav {
@@ -358,4 +361,46 @@ footer{
 .footer-right .icons{
     display: flex;
     gap: 10px;
+}
+
+
+@media(max-width:360px){
+    .header{
+        display: none;
+    }
+    .start-game{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .online-play{
+        display: none;
+    }
+    .header-mobilni{
+        display: block;
+        height: 777px;
+        flex-direction: column;
+        padding: 38px;
+        background-image: url(./img/mobilni-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .header-mobilni nav{
+        padding: 0;
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .header-mobilni .header-info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: -25px;
+    }
+    .header-mobilni ul{
+        display: none;
+    }
 }
