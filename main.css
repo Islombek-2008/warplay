@@ -490,9 +490,62 @@ footer{
         display: block;
         margin-top: 80px;
         padding: 15px;
+        border: 1px solid red;
+    }
+
+    .install-page-mobilni .install-page-info{
+        width: 330px;
     }
 
     .install-page-mobilni .p-assisant{
         width: 330px;
+    }
+
+    /* Быстрый старт */
+
+    #start-game{
+        width: 100%;
+        height: 100%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid white;
+
+
+    }
+
+    #start-game .start-game-cards{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+    }
+
+    #start-game .start-game-cards .img-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+    }
+
+    .mine-img-card{
+        display: flex;
+        gap: 25px;
+        border: 1px solid red;
+        align-items: center;
+    }
+
+    .mine-img-card h4{
+        margin: 0;
+        width: 100px;
+        display: flex;
+        text-align: center;
+        color: rgba(241, 241, 241, 1);
+    }
+    .mine-img-card span{
+        width: 73px;
+        height: 0;
+        border: 1px solid rgba(0, 197, 255, 1);
     }
 }
